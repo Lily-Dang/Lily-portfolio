@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta name="viewport" content="width=device-width initial-scale=1">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=Satisfy&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./style.production.css" />
+    <title>Lily's portfolio</title>
+</head>
+
+<body>
+    <header class="pageHeader">
+        <!-- Add logo here -->
+        <img class="faviconPic pageHeader__item" src="./img/favicon-32x32.png" alt="logo of cat" />
+        <nav class="mainNavigation pageHeader__item style borderYtoX">
+            <ul role="menubar" class="navigation_list">
+                <li role="presentation">
+                    <a href="./index.html" role="menuitem" class="navigation-list__item navigation-list__item--active">Home</a>
+                </li>
+                <li role="presentation">
+                    <a href="./about.html" target="_blank" aria-label="About cat" role="menuitem" class="navigation-list__item">About</a>
+                </li>
+                <li role="presentation">
+                    <a href="./contact.html" role="menuitem" class="navigation-list__item">Contact</a>
+                </li>
+                <li role="presentation">
+                    <a href="work.html" role="menuitem" class="navigation-list__item">Work</a>
+                </li>
+                <li role="presentation">
+                    <a href="./portfolio.html" role="menuitem" class="navigation-list__item">Portfolio</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <main class="profile">
+        <div class="contact">
+            <p class="contactItem"> 
+                Rosenweg 96<br>
+                1257 Landecy<br>
+                Switzerland<br>
+            <br>
+            Tel<a  href="tel 12345678">12345678</a>
+            <br>
+            <a href="https://www.facebook.com/baotrandang98123/" target="_blank">Lily@facebook.com</a><br>
+            <a href="mailto:baotrandang98@gmail.com" target="_blank">Click to contact me</a>
+        </div>
+        <div class="contactItem">
+            <p>In a rush?</p>
+            <p>Fill in and send me a message below</p>
+            <form class="contactItem" action="/name-form-action" method="post" id="contact-form">
+                <label class="standard-label" for="user-name">Your name:</label>
+                <input type="text" id="user-name">
+                <br />
+                <label class="standard-label" for="contact-email">E-mail:</label>
+                <input type="email" id="contact-email" required>
+                <br />
+                <label class="standard-label" for="contact-number">Telephone:</label>
+                <input type="tel" id="contact-number" pattern="\d{3}[\-]?\d{3}[\-]?\d{4}">
+                <br/>
+                <label class="standard-label" for="user-input">Message:</label>
+                <textarea id="user-input" maxlength="240" required></textarea>
+                <button type="submit" id="user-message">Send message</button>
+            </form>
+        </div>
+    </main>
+    <footer class="footerPage">
+        <p>Find me on</p>
+        <div class="socialMedia">
+            <a href="https://www.facebook.com/baotrandang98123/"><img src="./img/facebook_icon.svg" alt="facebook"></a>
+            <a href="https://www.instagram.com/dlilytran/"><img src="./img/instagram_media_icon.svg" alt="instagram"></a>
+            <a href="https://www.youtube.com/channel/UCb1A0jG3Y4A-OYFFkI3mG-Q"><img src="./img/youtube_icon.svg"
+                alt="youtube"></a>
+        </div>
+    </footer>
+    <script src="js./tota11y.min.js"></script>
+</body>
+
+</html>

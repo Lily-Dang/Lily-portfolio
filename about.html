@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta name="viewport" content="width=device-width initial-scale=1">
+    <title>Lily's portfolio</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=Satisfy&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./style.production.css" />
+</head>
+
+<body>
+    <header class="pageHeader">
+        <!-- Add logo here -->
+        <img class="faviconPic pageHeader__item" src="./img/favicon-32x32.png" alt="logo of cat" />
+        <nav class="mainNavigation pageHeader__item style borderYtoX">
+            <ul role="menubar" class="navigation_list style">
+                <li role="presentation">
+                    <a href="./index.html" role="menuitem" class="navigation-list__item navigation-list__item--active">Home</a>
+                </li>
+                <li role="presentation">
+                    <a href="./about.html" target="_blank" aria-label="About cat" role="menuitem" class="navigation-list__item">About</a>
+                </li>
+                <li role="presentation">
+                    <a href="./contact.html" role="menuitem" class="navigation-list__item">Contact</a>
+                </li>
+                <li role="presentation">
+                    <a href="work.html" role="menuitem" class="navigation-list__item">Work</a>
+                </li>
+                <li role="presentation">
+                    <a href="./portfolio.html" role="menuitem" class="navigation-list__item">Portfolio</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <main class="profile">
+        <p class="description">I have two cats.<br /> Their names are Pumpkin and Coconut</p>
+        <img class="resize" src="./img/pumpandcoco.png" alt="photo of pumpkin with coco, pumpkin have orange, white fur with blue eyes and coco have brownish fur with green eyes" />
+        <nav>
+            <h1 class="defaultFont defaultActive"> 
+                From the picture, how cute would you rate my cats from the scale of 0 to 10?
+            </h1>
+            <form action="/action_page.php">
+                <label class="standard-label" for="numbers">Choose a number:</label>
+                <select name="numbers" id="numbers">
+                    <option value="0">Zero-Lowest</option>
+                    <option value="1">One</option>
+                    <option value="2">Two</option>
+                    <option value="3">Three</option>
+                    <option value="4">Four</option>
+                    <option value="5">Five-Fair</option>
+                    <option value="6">Six</option>
+                    <option value="7">Seven</option>
+                    <option value="8">Eight</option>
+                    <option value="9">Nine</option>
+                    <option value="10">Ten-Cutest</option>
+                </select>
+                <input class="submitButton" type="submit" value="Submit">
+            </form>
+        </nav>
+        <br />
+        <br />
+        <br />
+        <table class="biography">
+            <caption class="biographyData"> The cats' biography</caption>
+            <thead>
+                <tr>
+                    <th>Names</th>
+                    <th>Years of age</th>
+                    <th>Tricks</th>
+                    <th>Favorite food</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Pumpkin</td>
+                    <td>1 and 3 months</td>
+                    <td>Sit, highfive, laydown, and rollover</td>
+                    <td>Chicken</td>
+                </tr>
+                <tr>
+                    <td>Coconut</td>
+                    <td>4 months</td>
+                    <td>Sit and highfive</td>
+                    <td>Salmon</td>
+                </tr>
+            </tbody>
+        </table>
+    </main>
+    <footer class="footerPage">
+        <p>Find me on</p>
+        <div class="socialMedia">
+            <a href="https://www.facebook.com/baotrandang98123/"><img src="./img/facebook_icon.svg" target="_blank" alt="facebook"></a>
+            <a href="https://www.instagram.com/pumpandcoco/"><img src="./img/instagram_media_icon.svg" alt="instagram"></a>
+            <a href="https://www.youtube.com/channel/UCb1A0jG3Y4A-OYFFkI3mG-Q"><img src="./img/youtube_icon.svg" alt="youtube"></a>
+        </div>
+    </footer>
+    <script src="js./tota11y.min.js"></script>
+</body>
+
+</html>
