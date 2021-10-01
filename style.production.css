@@ -239,8 +239,8 @@ img.youtubeIcon {
 }
 
 .pageHeader_item {
-	-ms-flex-preferred-size: 10px;
-	flex-basis: 10px;
+  -ms-flex-preferred-size: 10px;
+  flex-basis: 10px;
 }
 
 .pageHeader__item:last-child {
