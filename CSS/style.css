@@ -255,7 +255,7 @@ img.youtubeIcon {
 }
 
 .gridItem {
-  background-color: var(--secondary-color);
+  background-color: var(--primary-color);
 }
 
 .gridItem:last-child {
