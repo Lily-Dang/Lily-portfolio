@@ -295,7 +295,7 @@ button:focus,
 .button:focus {
   cursor: pointer;
   opacity: 0.8;
-  background-color: var(--primary-color);
+  background-color: var(--black);
   transition: color 5s infinite alternate ease-in-out;
   color: var(--white);
 }
