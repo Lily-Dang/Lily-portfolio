@@ -143,12 +143,11 @@ img.aboutPic:hover {
 .navigation-list__item {
   text-decoration: underline;
   display: inline-block;
-  width: 100px;
   transition: width 500ms ease-in;
 }
 
 .navigation-list__item:hover {
-  width: 140px;
+  width: 100px;
 }
 
 .submitButton:hover,
@@ -275,7 +274,8 @@ img.youtubeIcon {
   display: none;
 }
 
-.button button {
+.button,
+button {
   border: none;
   display: inline-block;
   font-family: inherit;
@@ -340,4 +340,16 @@ button:focus,
 
 .cloudBack {
   animation: 30s cloud-move-reverse infinite alternate linear;
+}
+
+.berlin-illustration {
+  background-image: url(../img/animation.svg);
+}
+
+.font {
+  display: inline-block;
+}
+
+.font:hover {
+  animation: 5000ms cloud-move infinite alternate linear;
 }
