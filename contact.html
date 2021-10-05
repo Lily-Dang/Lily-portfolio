@@ -49,32 +49,39 @@
             <a href="https://www.facebook.com/baotrandang98123/" target="_blank">Lily@facebook.com</a><br>
             <a href="mailto:baotrandang98@gmail.com" target="_blank">Click to contact me</a>
         </div>
-        <div class="contactItem">
+        <div>
             <p>In a rush?</p>
             <p>Fill in and send me a message below</p>
-            <form class="contactItem" action="/name-form-action" method="post" id="contact-form">
-                <label class="standard-label" for="user-name">Your name:</label>
-                <input type="text" id="user-name">
-                <br />
-                <label class="standard-label" for="contact-email">E-mail:</label>
-                <input type="email" id="contact-email" required>
-                <br />
-                <label class="standard-label" for="contact-number">Telephone:</label>
-                <input type="tel" id="contact-number" pattern="\d{3}[\-]?\d{3}[\-]?\d{4}">
-                <br />
-                <label class="standard-label" for="user-input">Message:</label>
-                <textarea id="user-input" maxlength="240" required></textarea>
-                <button type="submit" id="user-message">Send message</button>
+            <form action="/name-form-action" method="post" id="contact-form">
+                <div class="contactItem">
+                    <label class="standard-label" for="user-name">Your name:</label>
+                    <input type="text" id="user-name">
+                </div>
+                <div class="contactItem">
+                    <label class="standard-label" for="contact-email">E-mail:</label>
+                    <input type="email" id="contact-email" required>
+                </div>
+                <div class="contactItem">
+                    <label class="standard-label" for="contact-number">Telephone:</label>
+                    <input type="tel" id="contact-number" pattern="\d{3}[\-]?\d{3}[\-]?\d{4}">
+                </div>
+                <div class="contactItem">
+                    <label class="standard-label" for="user-input">Message:</label>
+                    <textarea id="user-input" maxlength="240" required></textarea>
+                </div>
+                <div class="contactItem">
+                    <button type="submit" id="user-message">Send message</button>
+                </div>
             </form>
         </div>
     </main>
     <footer class="footerPage">
         <p>Find me on</p>
         <div class="socialMedia">
-            <a href="https://www.facebook.com/baotrandang98123/"><img src="./img/facebook_icon.svg" alt="facebook"></a>
-            <a href="https://www.instagram.com/dlilytran/"><img src="./img/instagram_media_icon.svg"
+            <a href="https://www.facebook.com/baotrandang98123/"><img class="facebookIcon" src="./img/facebook_icon.svg" alt="facebook"></a>
+            <a href="https://www.instagram.com/dlilytran/"><img class="instaIcon" src="./img/instagram_media_icon.svg"
                     alt="instagram"></a>
-            <a href="https://www.youtube.com/channel/UCb1A0jG3Y4A-OYFFkI3mG-Q"><img src="./img/youtube_icon.svg"
+            <a href="https://www.youtube.com/channel/UCb1A0jG3Y4A-OYFFkI3mG-Q"><img class="youtubeIcon" src="./img/youtube_icon.svg"
                     alt="youtube"></a>
         </div>
     </footer>

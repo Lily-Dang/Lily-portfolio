@@ -32,8 +32,9 @@ th {
 table,
 th,
 td {
-  border: none;
+  border: 2px dashed palegreen;
   background-color: var(--white);
+  padding: 5px;
 }
 
 header {
@@ -76,9 +77,9 @@ img.profilePortrait {
   width: 250px;
   height: auto;
   float: left;
-  margin-right: 10px;
+  margin-right: 72px;
   border-radius: 50%;
-  margin-top: 30px;
+  margin-top: 62px;
 }
 
 img.profilePortrait:hover {
@@ -105,6 +106,7 @@ img.aboutPic:hover {
   font-weight: lighter;
   color: var(--primary-color);
   text-decoration: none;
+  margin: 78px 48px 0 0;
 }
 
 .grow:hover {
@@ -112,8 +114,20 @@ img.aboutPic:hover {
   transition: scale 200ms infinite alternate linear;
 }
 
+.contactItem {
+  margin: 10px 0;
+}
+
+.standard-label {
+  color: var(--secondary-color);
+  display: inline;
+  width: 120px;
+  font-size: 25px;
+}
+
 .defaultActive {
-  font-size: var(--font-size);
+  font-size: 30px;
+  margin: 83px -36px 0 0;
 }
 
 .defaultButton {
@@ -150,12 +164,16 @@ img.aboutPic:hover {
   width: 100px;
 }
 
+.submitButton {
+  background-color: var(--secondary-color);
+}
+
 .submitButton:hover,
 .submitButton:focus {
-  background-color: var(--secondary-color);
+  background-color: var(--primary-color);
+  color: var(--white);
   cursor: pointer;
-  transform: scale3d(1.5, 0.5, 0.2);
-  transition: transform 500ms infinite ease-out;
+  transition: background-color 5s infinite alternate linear;
 }
 
 #user-message:hover,
@@ -267,7 +285,7 @@ img.youtubeIcon {
 }
 
 .biography {
-  margin: 0 65px;
+  margin: 20px 65px;
 }
 
 .description {
