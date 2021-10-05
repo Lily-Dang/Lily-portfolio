@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Lily's portfolio</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=Satisfy&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="./CSS/style.css" />
+    <link rel="shortcut icon" href="./img/favicon-32x32.png" />
+    <style>
+        body {
+            display: flex;
+            flex-direction: column;
+            height: 100vh;
+        }
+
+        header {
+            flex-basis: 10%;
+            display: flex;
+        }
+
+        header div:first-child {
+            flex-basis: 30%;
+            background-color: turquoise;
+        }
+
+        header div:last-child {
+            flex-basis: 70%;
+            background-color: violet;
+        }
+
+        footer {
+            flex-basis: 10%;
+            display: flex;
+            justify-content: center;
+        }
+
+        footer div {
+            flex-basis: 200px;
+            background-color: blue;
+        }
+
+        main {
+            flex-basis: 50%;
+            background-color: yellow;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <div></div>
+        <div></div>
+    </header>
+    <main>
+    </main>
+    <footer>
+        <div></div>
+    </footer>
+</body>
+
+</html>
+
+
+
+.style a:before, .style a:after
+{
+    position: absolute;
+    opacity: 0.5;
+    height: 100%;
+    width: 2px;
+    content: '';
+    background: var(--white);
+    transition: all 0.3s;
+}
+    
+div.borderYtoX a:before {
+    left: 0px;
+    top: 0px;
+}
+    
+div.borderYtoX a:after {
+    right: 0px;
+    bottom: 0px;
+}
+    
+div.borderYtoX a:hover:before, div.borderYtoX a:hover:after {
+    opacity: 1;
+    height: 2px;
+    width: 100%;
+}
+.style a {
+    position: relative;
+    margin: 0px 5px;
+    padding: 5px 5px;
+    z-index: 0;
+    text-decoration: none;
+    cursor: pointer;
+}
+   
+.borderYtoX a:before, .borderYtoX a:after {
+    position: absolute;
+    opacity: 0.5;
+    height: 100%;
+    width: 2px;
+    content: '';
+    transition: all 0.3s;
+}
+    
+.borderYtoX a:before {
+    left: 0px;
+    top: 0px;
+}
+    
+.borderYtoX a:after {
+    right: 0px;
+    bottom: 0px;
+}
+    
+.borderYtoX a:hover:before, .borderYtoX a:hover:after {
+    opacity: 1;
+    height: 2px;
+    width: 100%;
+}

@@ -1,7 +1,6 @@
 :root {
-  --primary-color: #ff6347;
+  --primary-color: #fff;
   --secondary-color: #556b2f;
-  --light-grey: #b0b8b4;
   --white: #fff;
   --black: #000;
 }
@@ -22,7 +21,8 @@ body {
   font-family: "Bebas Neue", sans-serif;
   font-weight: bold var(--font-weight);
   font-size: var(--font-size);
-  background-color: var(--light-grey);
+  background-color: var(--black);
+  color: var(--white);
 }
 
 th {
@@ -35,6 +35,7 @@ td {
   border: none;
   background-color: var(--white);
   padding: 5px;
+  color: var(--secondary-color);
 }
 
 header {
@@ -285,6 +286,7 @@ img.youtubeIcon {
   background-color: var(--white);
   padding: 5px;
   margin-bottom: 15px;
+  color: var(--black);
 }
 
 .gridItem:hover {
@@ -313,6 +315,7 @@ img.youtubeIcon {
 
 .font {
   display: inline-block;
+  color: var(--secondary-color);
 }
 
 .font:hover {
