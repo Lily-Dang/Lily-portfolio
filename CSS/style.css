@@ -32,8 +32,8 @@ th {
 table,
 th,
 td {
-  border: 2px dashed var(--black);
-  background-color: var(--white);
+  border: none;
+  background-color: var(--black);
   padding: 5px;
 }
 
