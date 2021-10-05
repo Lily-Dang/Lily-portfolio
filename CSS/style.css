@@ -32,7 +32,7 @@ th {
 table,
 th,
 td {
-  border: 2px dashed palegreen;
+  border: 2px dashed var(--black);
   background-color: var(--white);
   padding: 5px;
 }
