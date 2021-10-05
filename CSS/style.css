@@ -33,7 +33,7 @@ table,
 th,
 td {
   border: none;
-  background-color: var(--black);
+  background-color: var(--white);
   padding: 5px;
 }
 
