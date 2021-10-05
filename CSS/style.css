@@ -46,7 +46,7 @@ header {
 }
 
 footer {
-  background-color: var(--secondary-color);
+  background-color: var(--black);
 }
 
 a {
@@ -187,8 +187,9 @@ img.aboutPic:hover {
 
 #user-message:hover,
 #user-message:focus {
-  background-color: var(--primary-color);
+  background-color: var(--black);
   cursor: pointer;
+  color: var(--secondary-color);
 }
 
 .footerPage {
